@@ -3,24 +3,24 @@ services:
   movies:
     image: yaswanthyarra144/paytmmoviesss:latest
     ports:
-      - "77:80"
+      - "55:80"
     deploy:
       replicas: 3
   train:
     image: yaswanthyarra144/paytmtrainnn:latest
     ports:
-      - "78:80"
+      - "44:80"
     deploy:
       replicas: 3
   dth:
     image: yaswanthyarra144/paytmdthhh:latest
     ports:
-      - "79:80"
+      - "33:80"
     deploy:
       replicas: 3
   recharge:
     image: yaswanthyarra144/paytmree:latest
     ports:
-      - "89:80"
+      - "22:80"
     deploy:
       replicas: 3
